@@ -32,18 +32,10 @@ Work experience
   * Supervisor: Dr. Zhengzhang Chen, Dr. Haifeng Chen 
 
 * Fall 2015 - Fall 2021: Research Assistant
-  * Github University
+  * Texas A&M University
   * College Station, USA
   * Supervisor: Dr. Xia Hu
-<!-- Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
- -->
+
 Publications
 ======
   <ul>{% for post in site.publications %}
@@ -64,4 +56,6 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* **Conference program committees**: KDD 2022, ICLR 2022, AAAI 2022, WSDM 2022, NeurIPS 2021, KDD 2021, CIKM 2021, AAAI 2021, NeurIPS 2020, AAAI 2020, ICBD 2020, KDD 2020, CIKM 2019
+* **Journal reviewers**:IEEE Transactions on Neural Networks and Learning Systems, IEEE Intelligent Systems, ACM Transactions on Intelligent Systems and Technology, IEEE/CAA Journal of Automatica Sinica, Neurocomputing
+
