@@ -11,23 +11,31 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Computer Science, Wuhan University, 2017
+* Ph.D in Computer Science, Texas A&M University, 2021 
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2021: Research Intern
+  * Google
+  * Mountain View, USA
+  * Supervisor: Zhigang Wang, Sunny Liu
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2020: Research Intern
+  * Google
+  * Mountain View, USA
+  * Supervisor: Dr. Liang Liu, Dr. Shuchao Bi, Dr. Zhe Zhao 
   
-Skills
+* Sprint 2020: Research Intern
+  * NEC Laboratories America
+  * Princeton, USA
+  * Supervisor: Dr. Zhengzhang Chen, Dr. Haifeng Chen 
+
+* Fall 2015 - Fall 2021: Research Assistant
+  * Github University
+  * College Station, USA
+  * Supervisor: Dr. Xia Hu
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
@@ -35,14 +43,14 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
-
+ -->
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
@@ -52,7 +60,7 @@ Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Service and leadership
 ======
