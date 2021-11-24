@@ -17,22 +17,22 @@ Education
 Work experience
 ======
 * Summer 2021: Research Intern
-  * Google
+  * **Google**
   * Mountain View, USA
   * Supervisor: Zhigang Wang, Sunny Liu
 
 * Summer 2020: Research Intern
-  * Google
+  * **Google**
   * Mountain View, USA
   * Supervisor: Dr. Liang Liu, Dr. Shuchao Bi, Dr. Zhe Zhao 
   
 * Sprint 2020: Research Intern
-  * NEC Laboratories America
+  * **NEC Laboratories America**
   * Princeton, USA
   * Supervisor: Dr. Zhengzhang Chen, Dr. Haifeng Chen 
 
 * Fall 2015 - Fall 2021: Research Assistant
-  * Texas A&M University
+  * **Texas A&M University**
   * College Station, USA
   * Supervisor: Dr. Xia Hu
 
