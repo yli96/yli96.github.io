@@ -2,7 +2,7 @@
 title: "AutoOD: Neural Architecture Search for Outlier Detection"
 collection: publications
 permalink: /publication/AutoOD
-date: 2021-01-01
+date: 2021-02-01
 venue: 'IEEE International Conference on Data Engineering (ICDE), 2021'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+paperurl: 'https://arxiv.org/pdf/2006.11321.pdf'
 ---
