@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Anthony Yuening Li / Homepage"
+title                    : "Anthony Yuening Li"
 title_separator          : "-"
 name                     : &name "Anthony Yuening Li"
 description              : &description "Data Mining"
