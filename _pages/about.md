@@ -22,7 +22,7 @@ Education
 Work experience
 ======
 
-* 2022 - Now: Software Engineer, **Google**
+* Spring 2022 - Now: Software Engineer, **Google**
 
 * Summer 2021: Research Intern, **Google**
 
