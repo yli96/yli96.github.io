@@ -28,7 +28,7 @@ Work experience
 
 * Summer 2020: Research Intern, **Google**
   
-* Sprint 2020: Research Intern, **NEC Laboratories America**
+* Spring 2020: Research Intern, **NEC Laboratories America**
 
 * Fall 2015 - Fall 2021: Research Assistant, **Texas A&M University**
 
