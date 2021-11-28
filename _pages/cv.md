@@ -26,7 +26,7 @@ Work experience
   * Mountain View, USA
   * Supervisor: Dr. Liang Liu, Dr. Shuchao Bi, Dr. Zhe Zhao 
   
-* Sprint 2020: Research Intern
+* Spring 2020: Research Intern
   * **NEC Laboratories America**
   * Princeton, USA
   * Supervisor: Dr. Zhengzhang Chen, Dr. Haifeng Chen 
