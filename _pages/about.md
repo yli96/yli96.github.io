@@ -17,7 +17,7 @@ I am a Software Engineer at Google. I received my PhD in Department of Computer 
 Education
 ======
 * B.S. in Computer Science, Wuhan University, 2017
-* Ph.D in Computer Science, Texas A&M University, 2021 
+* Ph.D. in Computer Science, Texas A&M University, 2021 
 
 Work experience
 ======
