@@ -9,13 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
+
 I am a Software Engineer at Google. I received my PhD in Department of Computer Science at the CSE department of **Texas A&M University**. I worked at the DATA Lab under the supervision of [Dr. Xia Hu](https://cs.rice.edu/~xh37/index.html) since 2017. Before joining TAMU, I received my B.S. degree in Computer Science from **Wuhan University** in 2017. My research area is data mining and machine learning, with interests in anomaly detection, network embedding, and automated machine learning (AutoML).
 
 
 Education
 ======
 * B.S. in Computer Science, Wuhan University, 2017
-* Ph.D in Computer Science, Texas A&M University, 2021 
+* Ph.D. in Computer Science, Texas A&M University, 2021 
 
 Work experience
 ======
