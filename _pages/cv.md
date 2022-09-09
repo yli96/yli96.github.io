@@ -20,10 +20,15 @@ Education
 
 Work experience
 ======
+
+* Feb 2022 - Now: Software Engineer
+  * **Google**
+  * Mountain View, USA
+
 * Summer 2021: Research Intern
   * **Google**
   * Mountain View, USA
-  * Supervisor: Zhigang Wang, Sunny Liu
+  * Supervisor: Zhigang Wang, Dr. Sunny Liu
 
 * Summer 2020: Research Intern
   * **Google**
@@ -49,6 +54,6 @@ Publications
   
 Service and leadership
 ======
-* **Conference program committees**: KDD 2022, ICML 2022, ICLR 2022, AAAI 2022, WSDM 2022, NeurIPS 2021, KDD 2021, CIKM 2021, AAAI 2021, NeurIPS 2020, AAAI 2020, ICBD 2020, KDD 2020, CIKM 2019
+* **Conference program committees**: WSDM 2023, SDM 2023, NeurIPS 2022, KDD 2022, ICML 2022, ICLR 2022, AAAI 2022, WSDM 2022, NeurIPS 2021, KDD 2021, CIKM 2021, AAAI 2021, NeurIPS 2020, AAAI 2020, ICBD 2020, KDD 2020, CIKM 2019
 * **Journal reviewers**:IEEE Transactions on Neural Networks and Learning Systems, IEEE Intelligent Systems, ACM Transactions on Intelligent Systems and Technology, IEEE/CAA Journal of Automatica Sinica, Neurocomputing
 
