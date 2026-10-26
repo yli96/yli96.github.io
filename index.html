@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none';"
+    />
+    <!-- TODO(security): Frame-ancestors and nosniff HTTP response headers are managed by GitHub Pages edge infrastructure on static deployments. -->
+    <title>Yuening Li — Google DeepMind</title>
+    <meta
+      name="description"
+      content="Yuening Li is a Staff Research Engineer at Google DeepMind contributing to post-training (SFT & RL), long-horizon agentic reasoning, and frontier cybersecurity capabilities for Gemini models."
+    />
+    <link rel="canonical" href="https://yli96.github.io/" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;560;600&family=JetBrains+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,450;0,6..72,500;1,6..72,450&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="topbar">
+        <nav class="topbar__nav" aria-label="Section navigation">
+          <a id="nav-models" href="#models">Frontier Models</a>
+          <a id="nav-publications" href="#publications">Publications</a>
+          <a id="nav-experience" href="#experience">Experience</a>
+        </nav>
+        <button
+          id="theme-toggle"
+          class="theme-toggle"
+          type="button"
+          aria-label="Switch to dark mode"
+        >
+          Dark
+        </button>
+      </header>
+
+      <main id="main-content">
+        <!-- Hero / Bio -->
+        <section class="hero" aria-labelledby="hero-name">
+          <div class="hero__content">
+            <h1 id="hero-name" class="hero__title">Yuening Li</h1>
+            <p class="hero__role">
+              <strong>Staff Research Engineer</strong> &middot; Google DeepMind
+            </p>
+
+            <div class="hero__links" aria-label="Profile links">
+              <button
+                id="copy-email-btn"
+                class="email-copy-btn"
+                type="button"
+                data-u="yuehningli"
+                data-d="gmail.com"
+                title="Click to copy email address"
+              >
+                Email
+              </button>
+              <span class="link-sep" aria-hidden="true">/</span>
+              <a
+                id="link-scholar"
+                href="https://scholar.google.com/citations?user=3iPnIIUAAAAJ"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Google Scholar</a
+              >
+              <span class="link-sep" aria-hidden="true">/</span>
+              <a
+                id="link-github"
+                href="https://github.com/yli96"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
+              <span class="link-sep" aria-hidden="true">/</span>
+              <a
+                id="link-linkedin"
+                href="https://www.linkedin.com/in/yueningli/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+            </div>
+
+            <div class="bio">
+              <p>
+                I am a Staff Research Engineer at
+                <strong>Google DeepMind</strong>, where I contribute to
+                post-training—spanning supervised fine-tuning (SFT) and
+                large-scale reinforcement learning (RL)—for frontier
+                <strong>Gemini</strong> models, including
+                <a
+                  href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Gemini 4 Argon</a
+                >,
+                <a
+                  href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Gemini 3.8 Flash</a
+                >,
+                <a
+                  href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Gemini 3.8 Flash Cyber</a
+                >, and
+                <a
+                  href="https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Gemini 3.5 Flash Cyber</a
+                >. My research focuses on long-horizon reasoning, autonomous
+                coding agents, and frontier cybersecurity capabilities: training
+                models that navigate complex, repository-scale codebases to
+                discover, validate, and patch software vulnerabilities.
+              </p>
+              <p>
+                Previously, I was a Staff Software Engineer and Tech Lead on
+                <strong>YouTube Shorts Ranking</strong> (2022–2026), leading a
+                team of researchers and engineers across Transformer-based
+                foundation ranking architectures, long sequence user modeling,
+                and principled exploration via neural bandits and uncertainty
+                quantification at billion-user scale. I received my Ph.D. in
+                Computer Science from
+                <strong>Texas A&amp;M University</strong> (advised by
+                <a
+                  href="https://cs.rice.edu/~xh37/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Xia Hu</a
+                >) and my B.E. in Computer Science from
+                <strong>Wuhan University</strong>.
+              </p>
+            </div>
+          </div>
+
+          <div class="hero__avatar-wrap">
+            <img
+              class="hero__avatar"
+              src="images/avatar.jpg"
+              width="148"
+              height="148"
+              alt="Portrait of Yuening Li"
+            />
+          </div>
+        </section>
+
+        <!-- Frontier Models & Post-Training -->
+        <section id="models" class="section" aria-labelledby="models-heading">
+          <div class="section__header">
+            <h2 id="models-heading" class="section__title">
+              Frontier Models &amp; Post-Training
+            </h2>
+            <span class="section__subtitle">Google DeepMind</span>
+          </div>
+
+          <p class="section__lead">
+            Contributed to SFT and RL post-training for Google DeepMind&rsquo;s
+            flagship 1M-context frontier reasoning models, optimizing
+            long-horizon agentic execution, autonomous software engineering, and
+            defensive cybersecurity capabilities.
+          </p>
+
+          <div class="model-list">
+            <article class="model-item">
+              <div class="model-item__meta">2026</div>
+              <div class="model-item__head">
+                <h3 class="model-item__name">
+                  <a
+                    href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Gemini 4 Argon</a
+                  >
+                </h3>
+                <a
+                  class="chip-link"
+                  href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >[blog]</a
+                >
+              </div>
+            </article>
+
+            <article class="model-item">
+              <div class="model-item__meta">2026</div>
+              <div class="model-item__head">
+                <h3 class="model-item__name">
+                  <a
+                    href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Gemini 3.8 Flash &amp; Gemini 3.8 Flash Cyber</a
+                  >
+                </h3>
+                <a
+                  class="chip-link"
+                  href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >[blog]</a
+                >
+              </div>
+            </article>
+
+            <article class="model-item">
+              <div class="model-item__meta">2026</div>
+              <div class="model-item__head">
+                <h3 class="model-item__name">
+                  <a
+                    href="https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Gemini 3.5 Flash Cyber</a
+                  >
+                </h3>
+                <a
+                  class="chip-link"
+                  href="https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >[blog]</a
+                >
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- Publications -->
+        <section
+          id="publications"
+          class="section"
+          aria-labelledby="pubs-heading"
+        >
+          <div class="section__header">
+            <h2 id="pubs-heading" class="section__title">Publications</h2>
+            <div
+              class="filter-bar"
+              role="group"
+              aria-label="Filter publications"
+            >
+              <button
+                id="filter-selected"
+                class="filter-btn is-active"
+                type="button"
+                data-filter="selected"
+                aria-pressed="true"
+              >
+                Selected (11)
+              </button>
+              <button
+                id="filter-all"
+                class="filter-btn"
+                type="button"
+                data-filter="all"
+                aria-pressed="false"
+              >
+                All (22)
+              </button>
+              <button
+                id="filter-rl"
+                class="filter-btn"
+                type="button"
+                data-filter="rl"
+                aria-pressed="false"
+              >
+                Uncertainty &amp; RL
+              </button>
+              <button
+                id="filter-seq"
+                class="filter-btn"
+                type="button"
+                data-filter="seq"
+                aria-pressed="false"
+              >
+                Sequence &amp; Foundation
+              </button>
+            </div>
+          </div>
+
+          <ul class="pub-list">
+            <!-- 2026 -->
+            <li class="pub-item" data-tags="selected rl">
+              <div class="pub-item__venue">NeurIPS 2026</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://arxiv.org/abs/2606.25188"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Efficient Analytic Uncertainty Quantification for
+                    Multimodal Regression</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  Kun Jin, James Harrison, Jiawei Li, Sihan Liu, Jiayi Liu,
+                  Randolph Linderman, <strong>Yuening Li</strong>, Arnab
+                  Bhadury, Sourabh Prakash Bansod, Liang Liu, Jasper Snoek
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://arxiv.org/abs/2606.25188"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[arxiv]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="selected seq">
+              <div class="pub-item__venue">KDD 2026</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://dl.acm.org/doi/10.1145/3770855.3818314"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Addressing Intent Dissonance in Cross-Domain Distillation
+                    on YouTube</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  Daokun Jiang, Nikhil Khani, Alice Tuo, Li Wei, Zeyu Wang, Joey
+                  Qiao, Chuan He, <strong>Yuening Li</strong>, Aniruddh Nath,
+                  Shawn Andrews, Liang Liu
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://dl.acm.org/doi/10.1145/3770855.3818314"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[paper]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="selected seq">
+              <div class="pub-item__venue">SIGIR 2026</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://dl.acm.org/doi/10.1145/3805712.3808503"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Beyond Item IDs: Scaling Short-Form-Video Recommendation
+                    via Semantic-Native Long Sequence Modeling</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  Ruixiao Sun, Diego Uribe, Zhimeng Jiang, Yuanzhen Lin, Jiarui
+                  Wang, <strong>Yuening Li</strong>, Danfeng Guo, Zhizhong Chen,
+                  Chuan He, Liang Liu
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://dl.acm.org/doi/10.1145/3805712.3808503"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[paper]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="selected seq">
+              <div class="pub-item__venue">RecSys 2026</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://programs.sigchi.org/recsys/2026/program/content/270596"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Interest Sequence for User Modeling in Industrial
+                    Short-Form Video Recommendation</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  Yuanzhen Lin, Diego Uribe, Yuan Shao, Ruixiao Sun, Yongle Cao,
+                  Zhimeng Jiang, <strong>Yuening Li</strong>, Yang Gu, Chuan He,
+                  Liang Liu, Sourabh Bansod
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://programs.sigchi.org/recsys/2026/program/content/270596"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[program]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <!-- 2024 -->
+            <li class="pub-item" data-tags="selected rl">
+              <div class="pub-item__venue">WSDM 2024</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://arxiv.org/abs/2305.13744"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Long-Term Value of Exploration: Measurements, Findings and
+                    Algorithms</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  Yi Su, Xiangyu Wang, Elaine Ya Le, Liang Liu,
+                  <strong>Yuening Li</strong>, Haokai Lu, Benjamin Lipshitz,
+                  Sriraj Badam, Lukasz Heldt, Shuchao Bi, Ed H. Chi, Cristos
+                  Goodrow, Su-Lin Wu, Lexi Baugher, Minmin Chen
+                </p>
+                <div class="pub-item__meta">
+                  <span class="badge badge--award">Best Paper Award</span>
+                  <a
+                    class="chip-link"
+                    href="https://arxiv.org/abs/2305.13744"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[arxiv]</a
+                  >
+                  <a
+                    class="chip-link"
+                    href="https://dl.acm.org/doi/10.1145/3616855.3635833"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[paper]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="selected seq">
+              <div class="pub-item__venue">RecSys 2024</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://dl.acm.org/doi/10.1145/3640457.3688030"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Short-Form Video Needs Long-Term Interests: An Industrial
+                    Solution for Serving Large User Sequence Models</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  <strong>Yuening Li</strong>, Diego Uribe, Chuan He, Jiaxi
+                  Tang, Qingyun Liu, Junjie Shan, Ben Most, Kaushik Kalyan,
+                  Shuchao Bi, Xinyang Yi, Lichan Hong, Ed H. Chi, Liang Liu
+                </p>
+                <div class="pub-item__meta">
+                  <span class="badge">Core System Paper</span>
+                  <a
+                    class="chip-link"
+                    href="https://dl.acm.org/doi/10.1145/3640457.3688030"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[paper]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="selected rl seq">
+              <div class="pub-item__venue">RecSys 2024</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://dl.acm.org/doi/10.1145/3640457.3688033"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Co-optimize Content Generation and Consumption in a Large
+                    Scale Video Recommendation System</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  Zhen Zhang*, Qingyun Liu*, <strong>Yuening Li*</strong>,
+                  Sourabh Bansod, Mingyan Gao, Yaping Zhang, Zhe Zhao, Lichan
+                  Hong, Ed H. Chi, Shuchao Bi, Liang Liu (* equal contribution)
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://dl.acm.org/doi/10.1145/3640457.3688033"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[paper]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="selected rl">
+              <div class="pub-item__venue">KDD 2024</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://dl.acm.org/doi/10.1145/3637528.3671649"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Multi-Task Neural Linear Bandit for Exploration in
+                    Recommender Systems</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  Yi Su, Haokai Lu, <strong>Yuening Li</strong>, Liang Liu,
+                  Shuchao Bi, Ed H. Chi, Minmin Chen
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://dl.acm.org/doi/10.1145/3637528.3671649"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[paper]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <!-- 2023 -->
+            <li class="pub-item" data-tags="selected seq">
+              <div class="pub-item__venue">CIKM 2023</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://dl.acm.org/doi/10.1145/3583780.3615489"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Multitask Ranking System for Immersive Feed and No More
+                    Clicks: A Case Study of Short-Form Video Recommendation</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  Qingyun Liu, Zhe Zhao, Liang Liu, Zhen Zhang, Junjie Shan,
+                  <strong>Yuening Li</strong>, Shuchao Bi, Lichan Hong, Ed H.
+                  Chi
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://dl.acm.org/doi/10.1145/3583780.3615489"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[paper]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <!-- 2022 & Earlier -->
+            <li class="pub-item" data-tags="selected seq">
+              <div class="pub-item__venue">KDD 2022</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://dl.acm.org/doi/10.1145/3534678.3539140"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Towards Learning Disentangled Representations for Time
+                    Series</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  <strong>Yuening Li</strong>, Zhengzhang Chen, Daochen Zha,
+                  Kaixiong Zhou, Haifeng Jin, Haifeng Chen, Xia Hu
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://dl.acm.org/doi/10.1145/3534678.3539140"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[paper]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="earlier">
+              <div class="pub-item__venue">AAAI 2022</div>
+              <div>
+                <h3 class="pub-item__title">
+                  RES: A Replicability Estimation System
+                </h3>
+                <p class="pub-item__authors">
+                  Zhuoer Wang, Qizhang Feng, Mohinish Chatterjee,
+                  <strong>Yuening Li</strong>, et al.
+                </p>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="rl earlier">
+              <div class="pub-item__venue">IEEE TNNLS</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://arxiv.org/abs/2006.11321"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Automated Outlier Detection via Curiosity-Guided Search and
+                    Self-Imitation Learning</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  <strong>Yuening Li</strong>, Zhengzhang Chen, Daochen Zha,
+                  Mengnan Du, Jingchao Ni, Denghui Zhang, Haifeng Chen, Xia Hu
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://arxiv.org/abs/2006.11321"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[arxiv]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="earlier">
+              <div class="pub-item__venue">ICDE 2021</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://arxiv.org/abs/2006.11321"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >AutoOD: Neural Architecture Search for Outlier Detection</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  <strong>Yuening Li</strong>, Zhengzhang Chen, Daochen Zha,
+                  Kaixiong Zhou, Haifeng Jin, Haifeng Chen, Xia Hu
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://arxiv.org/abs/2006.11321"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[arxiv]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="earlier">
+              <div class="pub-item__venue">WWW 2021</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://arxiv.org/abs/2006.08315"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Mitigating Gender Bias in Captioning Systems</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  Ruixiang Tang, Mengnan Du, <strong>Yuening Li</strong>, Zirui
+                  Liu, Na Zou, Xia Hu
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://arxiv.org/abs/2006.08315"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[arxiv]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="earlier">
+              <div class="pub-item__venue">WWW 2020</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://arxiv.org/abs/2003.05602"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >An End-to-End Outlier Detection System with Automated
+                    Machine Learning</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  <strong>Yuening Li</strong>, Daochen Zha, Praveen Venugopal,
+                  Na Zou, Xia Hu
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://arxiv.org/abs/2003.05602"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[arxiv]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="earlier">
+              <div class="pub-item__venue">NeurIPS 2020</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://arxiv.org/abs/2006.06972"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Towards Deeper Graph Neural Networks with Differentiable
+                    Group Normalization</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  Kaixiong Zhou, Xiao Huang, <strong>Yuening Li</strong>,
+                  Daochen Zha, Rui Chen, Xia Hu
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://arxiv.org/abs/2006.06972"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[arxiv]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="rl earlier">
+              <div class="pub-item__venue">IJCAI 2020</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://arxiv.org/abs/2006.04061"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Dual Policy Distillation</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  Daochen Zha, Kwei-Herng Lai, <strong>Yuening Li</strong>, Xia
+                  Hu
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://arxiv.org/abs/2006.04061"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[arxiv]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="earlier">
+              <div class="pub-item__venue">CIKM 2020</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://arxiv.org/abs/1909.05999"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Locality Aware Autoencoder for Manipulated Forgery
+                    Detection</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  Mengnan Du, Shiva Pentyala, <strong>Yuening Li</strong>, Xia
+                  Hu
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://arxiv.org/abs/1909.05999"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[arxiv]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="selected earlier">
+              <div class="pub-item__venue">CIKM 2019</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://arxiv.org/abs/1908.03849"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Spectral Autoencoder for Anomaly Detection in Attributed
+                    Networks</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  <strong>Yuening Li</strong>, Xiao Huang, Jundong Li, Mengnan
+                  Du, Na Zou, Xia Hu
+                </p>
+                <div class="pub-item__meta">
+                  <span class="badge badge--award">Best Paper Finalist</span>
+                  <a
+                    class="chip-link"
+                    href="https://arxiv.org/abs/1908.03849"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[arxiv]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="earlier">
+              <div class="pub-item__venue">KDD 2019</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://dl.acm.org/doi/10.1145/3292500.3330941"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Graph Recurrent Networks with Attributed Random Walks</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  Xiao Huang, Qingquan Song, <strong>Yuening Li</strong>, Xia Hu
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://dl.acm.org/doi/10.1145/3292500.3330941"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[paper]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="earlier">
+              <div class="pub-item__venue">KDD 2019</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://arxiv.org/abs/1905.10668"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Is a Single Vector Enough? Exploring Node Polysemy for
+                    Network Embedding</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  Ninghao Liu, Qiaoyu Tan, <strong>Yuening Li</strong>, Hongxia
+                  Yang, Jingren Zhou, Xia Hu
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://arxiv.org/abs/1905.10668"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[arxiv]</a
+                  >
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item" data-tags="earlier">
+              <div class="pub-item__venue">IJCNN 2019</div>
+              <div>
+                <h3 class="pub-item__title">
+                  <a
+                    href="https://arxiv.org/abs/1908.03848"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Deep Structured Cross-Modal Anomaly Detection</a
+                  >
+                </h3>
+                <p class="pub-item__authors">
+                  <strong>Yuening Li</strong>, Ninghao Liu, Jundong Li, Mengnan
+                  Du, Xia Hu
+                </p>
+                <div class="pub-item__meta">
+                  <a
+                    class="chip-link"
+                    href="https://arxiv.org/abs/1908.03848"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >[arxiv]</a
+                  >
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <div id="pub-more-wrap" class="pub-more-wrap">
+            <button id="pub-more-btn" class="pub-more-btn" type="button">
+              View all 22 publications (2019–2026) &rarr;
+            </button>
+          </div>
+        </section>
+
+        <!-- Experience & Education -->
+        <section
+          id="experience"
+          class="section"
+          aria-labelledby="exp-heading"
+        >
+          <div class="section__header">
+            <h2 id="exp-heading" class="section__title">
+              Experience &amp; Education
+            </h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-item__period">2026 – Present</div>
+              <div>
+                <p class="timeline-item__head">
+                  <strong>Staff Research Engineer</strong> &middot;
+                  <span class="timeline-item__org">Google DeepMind</span>
+                </p>
+                <p class="timeline-item__desc">
+                  Contribute to post-training (SFT &amp; RL) for frontier Gemini
+                  models (Gemini 4 Argon, Gemini 3.8 Flash, Gemini 3.8 &amp; 3.5
+                  Flash Cyber), focusing on long-horizon reasoning, agentic
+                  execution, and software vulnerability discovery and patching.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-item__period">2022 – 2026</div>
+              <div>
+                <p class="timeline-item__head">
+                  <strong>Staff Software Engineer (Tech Lead)</strong> &middot;
+                  <span class="timeline-item__org"
+                    >Google, YouTube Shorts Ranking</span
+                  >
+                </p>
+                <p class="timeline-item__desc">
+                  Tech Lead for foundation ranking model large-scale training
+                  and inference.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-item__period">2020 – 2021</div>
+              <div>
+                <p class="timeline-item__head">
+                  <strong>Research Intern</strong> &middot;
+                  <span class="timeline-item__org"
+                    >Google &amp; NEC Laboratories America</span
+                  >
+                </p>
+                <p class="timeline-item__desc">
+                  Research internships on large-scale recommendation learning at
+                  Google (Summers 2020, 2021) and Neural Architecture Search for
+                  automated outlier detection (AutoOD, ICDE &rsquo;21) at NEC
+                  Labs.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-item__period">2017 – 2021</div>
+              <div>
+                <p class="timeline-item__head">
+                  <strong>Ph.D. in Computer Science</strong> &middot;
+                  <span class="timeline-item__org">Texas A&amp;M University</span>
+                </p>
+                <p class="timeline-item__desc">
+                  Advisor: Dr. Xia Hu &middot; Dissertation:
+                  <em>Automated Machine Learning, Anomaly Detection, and Interpretability</em>.
+                </p>
+              </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-item__period">2013 – 2017</div>
+              <div>
+                <p class="timeline-item__head">
+                  <strong>B.E. in Computer Science</strong> &middot;
+                  <span class="timeline-item__org">Wuhan University</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Service -->
+        <section class="section" aria-labelledby="service-heading">
+          <div class="section__header">
+            <h2 id="service-heading" class="section__title">
+              Academic Service
+            </h2>
+          </div>
+          <p class="service-note">
+            <strong>Program Committee &amp; Reviewer:</strong> NeurIPS, ICML,
+            ICLR, KDD, RecSys, WSDM, WWW, AAAI, CIKM, and IEEE Transactions on
+            Neural Networks and Learning Systems (TNNLS).
+          </p>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span>Yuening Li &middot; Mountain View, CA</span>
+        <span>Updated Oct 2026</span>
+      </footer>
+    </div>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
